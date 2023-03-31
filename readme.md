@@ -6,6 +6,11 @@ The GSM & GPS gateway serves as a control gateway for outputs controllable direc
 todo
 
 
+# Control and display
+![screen](/img/gtw.png)
 
+![screen](/img/gtw2.png)
+
+![screen](/img/gtw3.png)
 
 
