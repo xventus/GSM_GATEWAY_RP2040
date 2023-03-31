@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "LCD5110 Debug jlink",
+            "cwd": "${workspaceRoot}",
+            "executable": "${command:cmake.launchTargetPath}",
+            "request": "launch",
+            "type": "cortex-debug",
+            "serverpath": "/usr/local/bin/JLinkGDBServerCL",
+            "servertype": "jlink",
+            "gdbPath": "arm-none-eabi-gdb",
+            "interface": "swd",
+            "device": "RP2040_M0_0",
+            "svdFile": "${env:PICO_SDK_PATH}/src/rp2040/hardware_regs/rp2040.svd",
+            "showDevDebugOutput": "parsed",
+            "runToEntryPoint": "main",
+            "postRestartCommands": [
+            "break main",
+            "continue"
+            ],
+            "postLaunchCommands": [], 
+        }
+    ]
+}
