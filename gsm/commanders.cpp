@@ -71,6 +71,9 @@ bool Commanders::addNew(std::string_view id)
             }
 
             rc = fs.commit();
+        } else {
+            //already registered - OK
+            rc = true;
         }
     } while (false);
     return rc;
