@@ -36,7 +36,7 @@ public:
     static constexpr const char *callerIDOK         {">call ID OK"};
     static constexpr const char *gsmTimeError       {"GSM error  "};   
     static constexpr const char *gpsTimeError       {"GPS error  "};
-    static constexpr const char *gsmTimeOK          {" GMS  "};   
+    static constexpr const char *gsmTimeOK          {" GSM  "};   
     static constexpr const char *gpsTimeOK          {" GPS  "};
     static constexpr const char *ring               {"RING       "};
     static constexpr const char *learning           {"CALL ME!"};

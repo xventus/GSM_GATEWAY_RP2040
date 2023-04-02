@@ -124,7 +124,7 @@ extern void  configureTimerForRunTimeStats();
 
 // SMP port only 
 
-#define configNUM_CORES                         1  //  number of cores, rp2040 - TWO, Note: jlink debug switch to 1, using one core
+#define configNUM_CORES                         2       //  number of cores, rp2040 - TWO, Note: jlink debug switch to 1, using one core
 #define configTICK_CORE                         0       //
 #define configRUN_MULTIPLE_PRIORITIES           1       // Enable/Disable simultaneously running tasks with multiple priorities
 #define configUSE_CORE_AFFINITY                 1       // Enable/Disable setting a task's affinity to certain cores
