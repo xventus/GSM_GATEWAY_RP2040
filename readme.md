@@ -7,5 +7,14 @@ todo
 
 
 
+# Control and display
+![screen](/img/gtw.png)
+
+![screen](/img/gtw2.png)
+
+![screen](/img/gtw3.png)
 
 
+# License
+
+For non-commercial use only!
