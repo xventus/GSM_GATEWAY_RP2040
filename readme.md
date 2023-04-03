@@ -114,6 +114,23 @@ TC;
 TC0;
 ```
 
+# Hardware
+
+Stacked modules can easily be used for the entire assembly.  As a basis raspberry PICO, GSM modem module and RS 485. The LCD 5110 display is then connected to it.
+
+Raspberry Pi Pico
+
+https://www.raspberrypi.com/products/raspberry-pi-pico/
+
+Pico SIM868-GSM/GPRS/GNSS
+
+https://www.waveshare.com/wiki/Pico-SIM868-GSM/GPRS/GNSS
+
+Disconnect (cut off) the pins on GPIO0 and GPIO1 between the RS485 module and the modem. Only one channel can be used from the RS485 module. GPIO0 and GPIO1 are used for communication with the GSM module. 
+
+Pico-2CH-RS485 
+
+https://www.waveshare.com/wiki/Pico-2CH-RS485
 
 
 
