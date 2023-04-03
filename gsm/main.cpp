@@ -46,12 +46,12 @@ int main()
     // determine if a new installation is required
     newInstallationRequired();
 
-    /*
+    
       // check configuration
-      stdio_uart_init_full(uart1, TERMINAL_BAUD_RATE, TERMINAL_UART_TX_PIN, TERMINAL_UART_RX_PIN);
-      FlashStorage fs;
-      fs.memedump();
-      */
+      // stdio_uart_init_full(uart1, TERMINAL_BAUD_RATE, TERMINAL_UART_TX_PIN, TERMINAL_UART_RX_PIN);
+      // FlashStorage fs;
+      // fs.memedump();
+     
 
     // start application
     Application::getInstance()->init();

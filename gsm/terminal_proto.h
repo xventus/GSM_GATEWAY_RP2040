@@ -30,6 +30,7 @@ using namespace std::literals;
            R, r - read output status
            C, c - clear output status  (0 - 255) set the bits to be reset
            T, t - get time
+           A, a - get human readable datetime - UTC
 
        Response:
            Address|Command|value number;<Checksum>

@@ -96,13 +96,13 @@ std::string Commanders::getList() const
     int counter = 0;
 
     for (auto &element : _commanders)
-    {
+    {   
         counter++;
-        rc = std::to_string(counter);
+        rc += std::to_string(counter);
         rc += ": ";
         rc += element;
-        rc += "\n\r";
+        rc += "\n";
     }
-
+    
     return rc;
 }
