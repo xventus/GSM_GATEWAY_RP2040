@@ -28,12 +28,7 @@ class Application
 {
 
 public:
-    /**
-     * @brief Constructor
-     *
-     */
-    Application();
-
+    
     /**
      * @brief Destroy the Application object
      *
@@ -125,6 +120,15 @@ private:
      * @return false
      */
     bool irqHandlersInit();
+
+    /**
+     * @brief Constructor
+     *
+     */
+    Application();
+    Application(const Application &) = delete;
+    Application &operator=(const Application &) = delete;
+
 
     LedTask _heartBeat;         ///< led task instance
     LCDTask _lcd;               ///< lcd task instance
