@@ -45,14 +45,20 @@ The display shows the status of modem initialization, SIM card checking, site re
 The individual lines on the display inform:
 
 1, Operator name
+
 2, UTC date 
+
 3, UTC time
+
 4, Output states, status information
+
 5, Signal strength
 
 The date and time is obtained from the GPS (if available) and the GSM site. This case is then used to synchronize the internal RTC. 
 
 The time is shown on the display with a certain period when the information from the modem is obtained. Therefore, the time may be out of date. It is only active when the time is read and displayed. This time is only for checking. Deviation up to 1 minute. 
+
+The internal RTC clock is always synchronized and the query for the exact time always returns the current synchronized time. 
 
 
 ![screen](/img/gtw3.png)
