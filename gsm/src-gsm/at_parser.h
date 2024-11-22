@@ -15,6 +15,7 @@
 #include <unordered_set>
 #include <unordered_map>
 #include <vector>
+#include <optional>
 #include "pico/util/datetime.h"
 #include "at_enums.h"
 

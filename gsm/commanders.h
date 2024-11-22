@@ -12,6 +12,7 @@
 #include <string>
 #include <iostream>
 #include <string_view>
+#include <cstdint>
 
 /**
  * @brief It encapsulates

@@ -10,6 +10,7 @@
 #include <inttypes.h>
 #include <string>
 #include <string_view>
+#include <functional>
 #include "pico/util/datetime.h"
 #include "at_parser.h"
 #include "serial_modem_intf.h"
